@@ -6,6 +6,24 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.App {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-conversations {
+  width: 300px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  background-color: burlywood;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
