@@ -15,7 +15,6 @@ import { loggedUserId } from './_app';
 
 const Home: FC = () => {
   const year = new Date().getFullYear()
-  const userID = loggedUserId
 
   return (
     <div className={styles.container}>
